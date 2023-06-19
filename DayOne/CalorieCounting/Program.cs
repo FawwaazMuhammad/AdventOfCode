@@ -21,8 +21,10 @@ int maxValue = 0;
 for (int i = 0; i < array.Length; i++)
 {
     if (array[i] > maxValue)
-    { maxValue = array[i]; 
-    maxIndex = i; }
+    {
+        maxValue = array[i];
+        maxIndex = i;
+    }
 }
 Console.WriteLine("Index with highest value: " + maxIndex + " And Max Calorie =" + maxValue);
 
